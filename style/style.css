@@ -1,0 +1,51 @@
+header{
+    color: rebeccapurple;
+    background-color: antiquewhite;
+    font-family: serif, "Century Gothic";
+    letter-spacing: 0.15cm;
+}
+nav{
+    padding-bottom: 4px;
+    margin: 2px;
+    background-color: tan;
+}
+nav li{
+    float: inherit;
+}
+nav ul{
+    list-style-type: none;
+    overflow: visible;
+}
+nav li a{
+    display: block;
+    padding: 6px;
+    background-color: tan;
+    text-decoration: none;
+    text-align: center;
+}
+/*nav menüüs link fookuses on teise taustaga*/
+nav li a:hover{
+    background-color: darkorchid;
+}
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    background-color: tan;
+    width: 100%;
+    text-align: center;
+}
+main section{
+    border-left: 6px solid olive;
+    background-color: tan;
+    border-radius: 30px;
+    padding: 2%;
+    width: 20%;
+    margin: 30px;
+
+}
+section#teine{
+    position: absolute;
+    left: 750px;
+    top: 230px;
+}

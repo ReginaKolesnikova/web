@@ -1,0 +1,51 @@
+header{
+    color: darkslategrey;
+    background-color: darksalmon;
+    font-family: serif, "Elephant";
+    letter-spacing: 0.12cm;
+}
+nav{
+    padding-bottom: 6px;
+    margin: 4px;
+    background-color: indianred;
+}
+nav li{
+    float: inherit;
+}
+nav ul{
+    list-style-type: none;
+    overflow: visible;
+}
+nav li a{
+    display: block;
+    padding: 8px;
+    background-color: indianred;
+    text-decoration: none;
+    text-align: center;
+}
+/*nav menüüs link fookuses on teise taustaga*/
+nav li a:hover{
+    background-color: lightseagreen;
+}
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    background-color: indianred;
+    width: 100%;
+    text-align: center;
+}
+main section{
+    border-left: 8px solid darkred;
+    background-color: indianred;
+    border-radius: 40px;
+    padding: 3%;
+    width: 10%;
+    margin: 20px;
+
+}
+section#teine{
+    position: absolute;
+    left: 650px;
+    top: 270px;
+}
